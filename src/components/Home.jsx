@@ -1,5 +1,5 @@
 import React from "react";
-import { TELP } from "./Images";
+import { TELP } from "./Images.jsx";
 import "./Home.css";
 
 function Home() {

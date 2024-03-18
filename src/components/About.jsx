@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { TELP } from "./Images";
+import { TELP } from "./Images.jsx";
 
 const sn = "${num}";
 
