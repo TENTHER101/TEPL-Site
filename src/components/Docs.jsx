@@ -12,36 +12,36 @@ END IF`;
 
 function Docs() {
     return (
-        <section class="docs-section">
-            <div class="container">
-                <h1 class="main-title">TEPL Documentation</h1>
+        <section className="docs-section">
+            <div className="container">
+                <h1 className="main-title">TEPL Documentation</h1>
 
-                <div class="warning">
+                <div className="warning">
                     <p>
                         ⚠️ This interpreter is currently in development, so it
                         might have breaking changes with each update.
                     </p>
                 </div>
 
-                <div class="feedback">
+                <div className="feedback">
                     <p>
                         💬 Got some questions? Ask it                <a href="https://github.com/TENTHER101/TEPL/discussions/categories/q-a">here</a>                    and we'll be glad to respond!
                     </p>
                 </div>
 
-                <pre class="code-sample">
+                <pre className="code-sample">
                     <code>{codesnip}</code>
                 </pre>
 
-                <p class="main-info">
+                <p className="main-info">
                     TEPL is a scripting programming language in development that
                     strives to make coding simple, easy, and fun to learn. It
                     comes with many features, including:
                 </p>
 
-                <div class="toc">
-                    <h2 class="toc-title">Table of Contents</h2>
-                    <ul class="toc-list">
+                <div className="toc">
+                    <h2 className="toc-title">Table of Contents</h2>
+                    <ul className="toc-list">
                         <li>
                             <a href="#intro">Introduction</a>
                         </li>
@@ -58,7 +58,7 @@ function Docs() {
                         </li>
                     </ul>
                 </div>
-                <div id="intro" class="section-content">
+                <div id="intro" className="section-content">
                     <h3>Introduction</h3>
                     <p>
                         Welcome fellow programmers or soon-to-be programmers!
@@ -70,7 +70,7 @@ function Docs() {
                     </p>
                 </div>
 
-                <div id="install" class="section-content">
+                <div id="install" className="section-content">
                     <h3>Installation</h3>
                     <p>
                         If you wish to view the source code and edit it,

@@ -1,4 +1,5 @@
 import React from "react";
+import { TELP } from "./Images";
 import "./Home.css";
 
 function Home() {
@@ -9,9 +10,11 @@ function Home() {
                     <h1 className="main-title">Welcome to the TEPL site!</h1>
                     <h2 className="subtitle">Where pro meets grammar...</h2>
                     <img
-                        src="../teplthumbnail.png"
+                        src={TELP}
                         id="teplthumbnail"
                         className="tepl-thumbnail"
+                        alt="tepl-thumbnail"
+                        loading="lazy"
                     />
                     <p className="main-info">
                         TEPL is a small interpreted language that is designed to be
