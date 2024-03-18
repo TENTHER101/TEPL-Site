@@ -18,10 +18,10 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="help" element={<Help />} />
-                <Route path="download" element={<Download />} />
-                <Route path="docs" element={<Docs />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/help" element={<Help />} />
+                <Route path="/download" element={<Download />} />
+                <Route path="/docs" element={<Docs />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>

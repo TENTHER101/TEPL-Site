@@ -4,9 +4,9 @@ import Popup from "reactjs-popup";
 
 function Download() {
     return (
-        <section id="download" class="download-section">
-            <div class="container">
-                <h1 class="main-title">Download TEPL</h1>
+        <section id="download" className="download-section">
+            <div className="container">
+                <h1 className="main-title">Download TEPL</h1>
                 <Popup
                     trigger={
                         <button className="download-link">

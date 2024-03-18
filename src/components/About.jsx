@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { TELP } from "./Images.jsx";
 
 const sn = "${num}";
 
@@ -29,38 +30,41 @@ END IF`;
 
 function About() {
     return (
-        <section id="about" class="about-section">
-            <div class="container">
-                <h1 class="main-title">About TEPL</h1>
-                <h2 class="subtitle">
+        <section id="about" className="about-section">
+            <div className="container">
+                <h1 className="main-title">About TEPL</h1>
+                <h2 className="subtitle">
                     Textual Educational Programming Language
                 </h2>
-                <p class="main-info">
+                <p className="main-info">
                     TEPL is a language designed for educational purposes,
                     focusing on simplicity and ease of learning.
                 </p>
-                <p class="main-info">
+                <p className="main-info">
                     It aims to help beginners understand programming concepts in
                     a clear and concise manner.
                 </p>
+
                 <img
-                    src="teplthumbnail.png"
+                    src={TELP}
                     id="teplthumbnail"
-                    class="tepl-thumbnail"
+                    className="tepl-thumbnail"
+                    alt="tepl-thumbnail"
+                    loading="lazy"
                 />
-                <h2 class="subtitle">The Future of TEPL</h2>
-                <p class="main-info">
+                <h2 className="subtitle">The Future of TEPL</h2>
+                <p className="main-info">
                     We plan to finish the basics of TEPL by early 2025,
                     including functions, for loops, while loops, and
                     if-elseif-else statements.
                 </p>
-                <h3 class="subtitle">Grammar Examples (Future Additions)</h3>
-                <pre class="code-sample">
+                <h3 className="subtitle">Grammar Examples (Future Additions)</h3>
+                <pre className="code-sample">
                     <code>{codesnip}</code>
                 </pre>
                 <div id="contact-us">
-                    <h2 class="subtitle">Contact Us</h2>
-                    <p class="main-info">
+                    <h2 className="subtitle">Contact Us</h2>
+                    <p className="main-info">
                         Have questions or feedback? Feel free to reach out to us
                         at{" "}
                         <a href="mailto:valuex.programmer.ces@gmail.com">
