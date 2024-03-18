@@ -25,7 +25,7 @@ function Docs() {
 
                 <div class="feedback">
                     <p>
-                        💬 Got some questions or feedback? Just open an issue                <a href="https://github.com/TENTHER101/TEPL/discussions/categories/q-a">here</a>                    and we'll be glad to respond!
+                        💬 Got some questions? Ask it                <a href="https://github.com/TENTHER101/TEPL/discussions/categories/q-a">here</a>                    and we'll be glad to respond!
                     </p>
                 </div>
 
@@ -84,50 +84,6 @@ function Docs() {
                     <pre>pip install -r requirements.txt</pre>
                     <p>
                         To start the program, run the <code>main.py</code> file.
-                    </p>
-                </div>
-
-                <div class="faq-section">
-                    <h2>FAQ</h2>
-                    <h3>When will TEPL be ready to use?</h3>
-                    <p>
-                        We aim to have TEPL ready by the end of 2024 or possibly
-                        sooner. Currently, we are building the base syntax and
-                        will move on to more advanced functionalities and
-                        important features. Libraries and frameworks will also
-                        be added in the future.
-                    </p>
-
-                    <h3>Why use TEPL?</h3>
-                    <p>
-                        TEPL is designed for beginners and focuses on backend
-                        development. Although it currently lacks frontend
-                        features, we plan to introduce VEPL (Visually
-                        Educational Programming Language) for frontend
-                        development. TEPL uses simple and English-like grammar,
-                        making it easy for beginners to learn.
-                    </p>
-                    <pre>FUNCTION add a b MEANS RETURN a+b END</pre>
-                    <p>
-                        (Disclaimer: the syntax shown above is subject to
-                        change, but the idea of functions will be introduced
-                        later on.)
-                    </p>
-
-                    <h3>License</h3>
-                    <p>
-                        TEPL is licensed under the Apache License for enhanced
-                        security. We hope that this software will inspire other
-                        projects and contribute to the improvement of software
-                        quality.
-                    </p>
-
-                    <h3>Credits</h3>
-                    <p>
-                        Credits to everyone who contributed! We have received
-                        help from various resources and even AI. The inspiration
-                        for TEPL comes from the needs in our society, and we
-                        credit everyone for their support.
                     </p>
                 </div>
             </div>

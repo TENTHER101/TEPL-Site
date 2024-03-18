@@ -33,7 +33,7 @@ function Help() {
                             </a>
                         </li>
                         <li class="toc-item">
-                            <a href="about.html#Contact-Us" class="toc-link">
+                            <a href="/about#contact-us" class="toc-link">
                                 Contact Us
                             </a>
                         </li>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-const sn = '${num}';
+const sn = "${num}";
 
 const codesnip = `FUNCTION add a b MEANS 
     RETURN a+b 
@@ -58,12 +58,16 @@ function About() {
                 <pre class="code-sample">
                     <code>{codesnip}</code>
                 </pre>
-                <h2 class="subtitle">Contact Us</h2>
-                <p class="main-info">
-                    Have questions or feedback? Feel free to reach out to us at                  <a href="mailto:valuex.programmer.ces@gmail.com">
-                         valuex.programmer.ces@gmail.com
-                    </a>
-                </p>
+                <div id="contact-us">
+                    <h2 class="subtitle">Contact Us</h2>
+                    <p class="main-info">
+                        Have questions or feedback? Feel free to reach out to us
+                        at{" "}
+                        <a href="mailto:valuex.programmer.ces@gmail.com">
+                            valuex.programmer.ces@gmail.com
+                        </a>
+                    </p>
+                </div>
             </div>
         </section>
     );
